@@ -236,7 +236,10 @@
 .contenido{
     height: 50px;
     font-family: "Jost", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .contenidoemail{
     height: 50px;
@@ -292,7 +295,12 @@
 
 
 
-
+.formulario{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 
 
@@ -494,6 +502,23 @@
     height: 250px;
 
 }
+.padreabajo{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.equipoabajo{
+    width: 1533px;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.equipodocente2{
+    width: 240px;
+    height: 200px;
+
+}
 .equipoContenido{
     height: 280px;
     display: flex;
@@ -504,7 +529,18 @@
 .texto{
     border: 2px solid blue;
     width: 250px;
-    height: 100x;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    
+}
+.texto2{
+    border: 2px solid blue;
+    width: 240px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     gap: 10px;
