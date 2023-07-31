@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="padre">
+        <div class="hijo">EAGLE.com</div>
+        <img src="https://images.vexels.com/media/users/3/228694/isolated/preview/d1a91e29a67a6077f6ba34e8779778e3-avion-despegando-logo.png" alt="" class="foto">
+      </header>
+    
+      <section class="padre2">
+        <div class="hijoTit">¿Quienes Somos?</div>
+        <div class="hijo2">EAGLE es una agencia de viajes líder en la industria, especializada en ofrecer experiencias de viaje excepcionales para aquellos que buscan aventuras inolvidables y momentos inigualables. Nuestra agencia se ha ganado una sólida reputación por brindar servicios de alta calidad y atención personalizada a nuestros clientes.</div>
+        <div class="hijoTit2">¿Cual es nuestra misión?</div>
+        <div class="hijo2">En EAGLE, estamos comprometidos con hacer que cada viaje sea una experiencia única y enriquecida. Nuestra pasión por los viajes y nuestro enfoque en la excelencia nos han convertido en la agencia de confianza para aquellos que buscan descubrir el mundo de una manera única y auténtica. ¡Únete a nosotros en nuestra misión de volar alto y descubrir nuevos horizontes!</div>
+      </section>
+    <section class="padreTit">
+        Tarjetas
+    </section>
+      <section class="padre3">
+        <div class="padrejunto">
+
+            <div class="hijo3">
+              <h2 class="text">La Acropolís, Grecia</h2>
+              <img src="https://blog-grecia.com/wp-content/uploads/2009/05/acropolis_grecia.jpg" alt="" class="fotolugar1">
+              <p class="texto">Uno de los grandes monumentos de la humanidad y uno de los lugares más visitados del planeta. En Atenas, en lo más alto de la colina que domina toda la ciudad, se halla la Acrópolis, que significa, precisamente, “ciudad alta”. Con el imponente Partenón, el edificio más importante de Grecia, gobernando el paisaje, es el primer lugar que visitan todos aquellos viajeros que hacen parada en Atenas, la capital del país.</p>
+              <div class="precio"><div class="preciodentro1">300€</div>
+              <div class="precidentro">200€</div></div>
+            </div>
+            <div class="hijo4">
+                <h2 class="text">Taj Mahal, India</h2>
+                <img src="https://turismoindia.es/wp-content/uploads/Taj-Mahal.jpg" alt="" class="fotolugar2">
+                <p class="texto">Todo aquel que viaja a India lo hace con un destino en su cabeza. Y es que no es de extrañar que el Taj Mahal, en la ciudad de Agra, es uno de los lugares más visitados del mundo: su belleza es indescriptible. Fue construido en el siglo XVI por el emperador Sha Yahan como muestra de amor a Mumtaz Mahal, su esposa. Esta falleció en el parto de su decimocuarto hijo, y en su lecho de muerte le pidió que construyera su tumba.</p>
+                <div class="precio">390€</div>
+            </div>
+            <div class="hijo5">
+                <h2 class="text">La Torre Eiffel, Francia</h2>
+                <img src="https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900" alt="" class="fotolugar3">
+                <p class="texto2">Se trata del edificio más alto de París y uno de los lugares más visitados de la ciudad -¡y del mundo!-: y es que la Torre Eiffel, con sus 324 metros de altura, recibe una media de 7 millones de visitantes todo el año.</p>
+                <div class="precio">250€</div>
+        </div>
+        </div>
+      </section>
+        <section class="form">
+            <h2 class="titulos">Formulario de Contacto</h2>
+            <div id="contactForm">
+              <input type="text" id="nombre"  placeholder="Nombre y Apellidos" required>
+              <input type="text" id="origen" placeholder="Origen" required>
+              <input type="text" id="destino" placeholder="Destino" required>
+              <input type="number" id="personas" placeholder="Número de Personas" required>
+              <input type="text" id="fecha"  placeholder="Fecha" required>
+        
+              <button type="button" onclick="solicitarInformacion()">Solicitar Información</button>
+              <button type="button" onclick="filtrarDestinos()">Filtrar</button>
+            </div>
+          </section>
+        
+          <section class="result">
+            <div id="resultados">
+            </div>
+          </section>
+
+        <script src="funciones.js"></script>
+
+
+</body>
+</html>
