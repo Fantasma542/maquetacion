@@ -9,6 +9,7 @@
     height: 665px;
     display: flex;
     justify-content: center;
+    position: static;
     
 }
 .fotito{
@@ -22,6 +23,7 @@ height: 634.15px;
 .foto{
     width: 400;
     height: 600px;
+    position: static;
 }
 .login{
     width:  350px;
@@ -34,6 +36,29 @@ position: relative;
 top: 20px;
 gap: 10px;
 }
+
+@media screen and (max-width: 880px){
+    .foto{
+        width: 0px;
+        height: 0px;
+    }
+    .fotito{
+        width: 0px;
+        height: 0px;
+    }
+    .padre{
+        position: static;
+    }
+}
+@media screen and (max-width: 950px){
+    .foot{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
 .login2{
     border: 1px solid rgb(200, 200, 200);
     width:  350px;
@@ -187,14 +212,16 @@ gap: 50px;
 
 
 
-.foot{
 
-    height: 37px;
+.foot{
+    height: 35px;
+    font-size: 0.9em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
+
 .social{
     text-decoration: none;
     color: black;
