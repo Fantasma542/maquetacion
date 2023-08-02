@@ -4,7 +4,7 @@ function solicitarInformacion() {
   let nombre = document.getElementById('nombre').value;
   let origen = document.getElementById('origen').value;
   let destino = document.getElementById('destino').value.toLowerCase();
-  let personas = parseInt(document.getElementById('personas').value);
+  let personas = parseInt(document.getElementById('personas ').value);
   let fecha = document.getElementById('fecha').value;
 
   let solicitud = {
