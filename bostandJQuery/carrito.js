@@ -8,7 +8,7 @@ $(document).ready(function() {
         const totalElement = $('#total-price');
         cartItemsElement.empty();
         cartItems.forEach(item => {
-            const listItem = $('<li>').text(`Precio: $${item.price.toFixed(2)}`);
+            const listItem = $('<li>').text(`Precio: ${item.price.toFixed(2)}€`);
             cartItemsElement.append(listItem);
         });
         totalElement.text(totalPrice.toFixed(2));
