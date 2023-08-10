@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    border-bottom: 5px solid rgb(255, 255, 255);
+    background-color: rgb(95,226,245);
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hijo{
+    background-color: white;
+    width: 190px;
+    height: 50px;
+    border-radius: 2000px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.hijo:hover{
+    font-size: 2em;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(95,226,245);
+    transition: background-color 2s;
+}
+
+.padre2{
+    height: 649px;
+    background-color:rgb(95,226,245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.hijo2{
+    border-bottom: 10px solid rgb(255, 255, 255);
+    font-size: 6em;
+    
+}
+section{
+    height: 535px;
+}
+
+/* padre 3 */
+#padre3{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.padredentro1{
+    width: 600px;
+    height: 539px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* padre 4 */
+#padre4{
+}
+
+.padredentro2{
+    background-color: rgb(95,226,245);
+    height: 164px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    
+}
+.padredentroabajo{
+    background-color: rgb(95,226,245);
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    
+}
+.fotos{
+    width: 150px;
+    height: 150px;
+
+
+}
+.text{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+.padretext{
+    background-color: rgb(95,226,245);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    gap: 20px;
+
+}
+.texttec{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+.padretec{
+    background-color: rgb(95,226,245);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    gap: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* nose */
+#padre6{
+    height:  570px;
+    background-color: black;
+}
+.seguir{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.seguir2{
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.seguirTexto1{
+    font-size: 1.5em;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seguirTexto2{
+    font-size: 1em;
+    font-family: "Jost", sans-serif;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.seguirTextoE{
+    font-size: 1em;
+    font-family: "Jost", sans-serif;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.seguirTextoE:hover{
+    color: red;
+    transition: color 2s;
+}
+.presencial{
+    width: 400px;
+    height: 250px;
+}
+
+.seguirabajo{
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.seguir3{
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.seguirTexto3{
+    font-size: 1.5em;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seguirTexto4{
+    font-size: 1em;
+    font-family: "Jost", sans-serif;
+    padding: 10px;
+}
+
+.trabajo{
+    width: 400px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#formulario{
+    background-color: rgb(95,226,245);
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+}
+.parte1{
+    border: 10px solid black;
+    border-radius: 6px;
+    display: flex;
+    height: 200px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 5px;
+}
+.parte2{
+    height: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
