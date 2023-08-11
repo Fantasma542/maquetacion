@@ -55,6 +55,8 @@ section{
 
 /* padre 3 */
 #padre3{
+    background-color: black;
+    color: white;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -69,9 +71,6 @@ align-items: center;
 }
 
 /* padre 4 */
-#padre4{
-}
-
 .padredentro2{
     background-color: rgb(95,226,245);
     height: 164px;
@@ -206,6 +205,7 @@ align-items: center;
 .trabajo{
     width: 400px;
     height: 250px;
+    padding-right: 30px;
 }
 
 
@@ -245,4 +245,39 @@ align-items: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.for{
+    height: 30px;
+}
+.boton{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/* FOOTER */
+.foot{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background-color: black;
+    gap: 30px;
+    
+}
+.sociales{
+    color: white;
+    text-decoration: none;
+}
+.sociales:hover{
+    font-size: 1.3em;
+    color: rgb(95,226,245);
+    transition: font-size 3s;
 }
